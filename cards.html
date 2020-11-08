@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        * 
+        {
+            box-sizing: border-box;
+        }
+        body 
+        {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background:url(images/pic84.jpg);
+            background-size: cover;
+        }
+        .colum 
+        {
+            width: 25%;
+            float: left;
+            padding-top: 0px 10px;
+        }
+        .row 
+        {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        @media screen and (max-width: 600px) 
+        {
+            .colum
+          {
+              width: 100%;
+              display: block;
+              margin-bottom: 20px;
+          }  
+        }
+        .card 
+        {
+            box-shadow: 0 10px 22px 0 rgb(255, 204, 2);
+            max-width: 300px;
+            margin: 10px;
+            background-color: #fd2d2d;
+            text-align: center;
+            border-radius: 40px;
+            padding-bottom: 15px;
+            height: 50vh;
+        }
+        h1 
+        {
+            color: #b4ff04;
+        }
+        h1:hover 
+        {
+            background-color: rgb(98, 209, 200);
+        }
+        p 
+        {
+            color: rgb(14, 10, 44);
+            font-style:italic ;
+            margin-bottom: 2px;
+        }
+        p:hover 
+        {
+          background-color: whitesmoke;
+        }
+        
+    </style>
+</head>
+<body>
+     <div class="row">
+         <div class="colum">
+          <div class="card">
+              <img src="Images/pic80.jpg" alt="" style="width: 150px; height: 121px; padding-top: 10px; border-radius: 50px;  top:calc(-100px/2);    left: calc(50%,-70px);">
+               <h1>I<strong> Khan</strong></h1>
+                <p>PM Of Pakistan</p>
+                <p>Former Wining Captain Of 1992 WC.</p>
+               
+          </div>      
+         </div>
+
+         <div class="colum">
+            <div class="card">
+                <img src="Images/pic81.jpg" alt="" style="width: 150px; height: 124px; padding-top: 10px; border-radius: 50px;  top:calc(-100px/2);    left: calc(50%,-70px);">
+                 <h1>M<strong> Z'berg</strong></h1>
+                  <p>Founder of Facebook</p>
+                  <p>American Computer Programmer.</p>
+                 
+            </div>      
+           </div>
+
+           <div class="colum">
+            <div class="card">
+                <img src="images/pic82.jpg" alt="" style="width: 150px; height:125px ; padding-top: 10px; border-radius: 50px;  top:calc(-100px/2); left: calc(50%,-70px);">
+                 <h1>Brain<strong> Lara</strong></h1>
+                  <p>West Indies Cricketer</p>
+                  <p>Most Runs in an test inning by batsman.</p>
+                 
+            </div>      
+           </div>
+
+           <div class="colum">
+           <div class="card">
+            <img src="images/pic83.jpg" alt="" style="width: 150px; height:125px ; padding-top: 10px; border-radius: 50px;  top:calc(-100px/2); left: calc(50%,-70px);">
+             <h1>Arfa<strong> Kareem</strong></h1>
+              <p>Pakistani Student</p>
+              <p>Became Youngest Microsoft Professinol.</p>
+             
+        </div>      
+       </div>
+     </div>
+</body>
+</html>
